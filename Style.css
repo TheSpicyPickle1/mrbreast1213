@@ -3,6 +3,7 @@
 :root{
     font-size: 20px;
     --color:rgb(255, 255, 255);
+    scroll-behavior: smooth;
 }
 
 
@@ -62,16 +63,19 @@ nav > ul{
 footer{
     background-color: rgb(15, 15, 153);
     padding: 3rem 1rem;
-    text-align: center;
 }
 button{
     background-color: red;
     padding: 3rem;
     font-size: 300%;
+    
 }
 header{
     background-color: rgb(15, 15, 153);
     padding: 3rem 1rem;
     text-align: center;
     font-size: 300%;
+}
+footer > p {
+    text-align: center;
 }
